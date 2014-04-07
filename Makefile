@@ -3,7 +3,7 @@
 all: www/js/trigram.js www/js/shell.js www/js/jquery.js
 
 www/js/trigram.js: trigram/*.coffee
-	coffee -j www/js/trigram.js -c trigram/reg.coffee trigram/mem.coffee trigram/decoder.coffee trigram/lc3.coffee
+	coffee -j www/js/trigram.js -c trigram/reg.coffee trigram/mem.coffee trigram/isa.coffee trigram/lc3.coffee
 
 www/js/shell.js: shell/*.coffee
 	coffee -j www/js/shell.js -c shell/*.coffee
