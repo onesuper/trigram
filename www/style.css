@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+canvas {
+    background: #eee;
+}
+
+
+body {
+  font-family: Open Sans;
+  font-size: 12px: 
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: right;
+}
+
+
+
+#register-table td, #memory-table td {
+  padding: 2px 4px;
+  border: 1px solid #999;
+  background: white;
+  font-size: 12px;
+  font-family: 'Helvetica','Arial'
+}
+
+.reg-content{
+  width: 50px;
+}
+
+.reg-name {
+  width: 20px;
+  font-weight: bold;
+}
+
+.mem-content{
+  width: 80px;
+}
+
+.mem-address {
+  font-weight: bold;
+  width: 50px;
+}
+
+#memory-table {
+  width: 200px;
+}
+
+#memory-table tbody { 
+  display: block; 
+  height: 300px;       /* Just for the demo          */
+  overflow-y: auto;    /* Trigger vertical scroll    */
+  overflow-x: hidden;  /* Hide the horizontal scroll */
+}
